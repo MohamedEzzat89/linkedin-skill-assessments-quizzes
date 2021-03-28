@@ -180,11 +180,11 @@
 - [ ] XSLT
 - [ ] DOM
 - [ ] AJAX
-- [ ] XSD
+- [x] XSD
 
 #### Q21. In an XML DTD, attributes are declared with an ATTLIST declaration. You need to validate the color attribute for element `<car>` against a fixed list of values. Which is the correct declaration?
 - [ ] `<!ATTLIST car color (red|white|blue|black) black>`
-- [ ] `<!ATTLIST car color (red|white|blue|black) #REQUIRED>`
+- [x] `<!ATTLIST car color (red|white|blue|black) #REQUIRED>`
 - [ ] `<!ATTLIST car color (red|white|blue|black) #FIXED>`
 - [ ] `<!ATTLIST car color (red|white|blue|black)>`
 
@@ -192,12 +192,12 @@
 - [ ] CSS is a complete programming language with more powerful syntax.
 - [ ] With CSS, the same element can be processed multiple times.
 - [ ] CSS allows you to reformat data into completely new structures.
-- [ ] CSS is easier to learn, use, and maintain.
+- [x] CSS is easier to learn, use, and maintain.
 
 #### Q23. Which type of DTD declaration is this code an example of? `<!DOCTYPE abc SYSTEM "file/file.dtd">`
 - [ ] Linked
 - [ ] Internal
-- [ ] External
+- [x] External
 - [ ] Structured
 
 #### Q24. The purpose of an XML schema is to define the building blocks of an XML document. Which option best describes the building blocks of an XML document?
@@ -209,7 +209,7 @@
 #### Q25. An XHTML document type definition (DTD) describes the allowed syntax and grammar of XHTML markup. Which is not one of the formal DTDs used in XHTML 1.0?
 - [ ] Frameset
 - [ ] Transitional
-- [ ] Basic
+- [x] Basic
 - [ ] Strict
 
 #### Q26. You are working with the following XML code snippet. You have this line in your XSLT code `xsl:value-of-select="//car/make"/>`. What does it display?
@@ -228,7 +228,7 @@
 - [ ] Cadillac
 - [ ] Cadillac Escalade
 - [ ] Cadillac Escalade 20000
-- [ ] Cadillac Escalade $20,000
+- [x] Cadillac Escalade $20,000
 
 #### Q27. You need to display the list of cars in the code snippet below in a column format, with a counter column for each row. Which XPath function do you use for the counter?
 
@@ -293,7 +293,7 @@
 }
 </ul>
 ```
-- [ ] D
+- [x] D
 
 ```xquery
 <ol>
@@ -310,7 +310,7 @@
 
 - [ ] `4 (DONE)`
 - [ ] `3 (LOADING)`
-- [ ] `1 (PROCESSING)`
+- [x] `1 (PROCESSING)`
 - [ ] `0 (UNSENT)`
 
 #### Q30. You are working with an XML document that uses an XML schema. How can you extend the document with elements NOT specified by the schema?
@@ -336,12 +336,12 @@
 - [ ] `/car[price>20000]/make/model`
 - [ ] `/car[price>=20000 and @year>=2009]/make/model`
 - [ ] `//car[price>=20000 and @year>2008]/model`
-- [ ] `/cars/car[price>=20000 and year>2008]/model`
+- [x] `/cars/car[price>=20000 and year>2008]/model`
 
 #### Q32. You are working with an XML document that uses an XML schema. How do you ensure that an attribute must be specified for its corresponding element?
 
 - [ ] Set the type attribute to `xs:required`.
-- [ ] Set the use attribute to `required`.
+- [x] Set the use attribute to `required`.
 - [ ] Set the minLength attribute to 1.
 - [ ] Set the minOccurs attribute to 1.
 
@@ -359,7 +359,7 @@
 ```
 
 - [ ] `<xsl:sort select="make" />`
-- [ ] `<xsl:sort select="model" />`
+- [x] `<xsl:sort select="model" />`
 - [ ] `<xsl:sort select="car" />`
 - [ ] `<xsl:sort select="price" />`
 
@@ -368,12 +368,12 @@
 - [ ] `/* */`
 - [ ] `<!-- -->`
 - [ ] `//`
-- [ ] `(: :)`
+- [x] `(: :)`
 
 #### Q35. Which DOM node type may NOT have the EntityReference node type as one of its child nodes?
 
 - [ ] Element
-- [ ] Document
+- [x] Document
 - [ ] EntityReference
 - [ ] DocumentFragment
 
@@ -389,11 +389,11 @@
 - [ ] `<xsl:namespace>`
 - [ ] any valid element
 - [ ] root element
-- [ ] top-level element in the corresponding namespace
+- [x] top-level element in the corresponding namespace
 
 #### Q38. XML is a markup language, not a programming language. What makes XML not qualify to be a programming language?
 
 - [ ] XML is too flexible and does not have enough reserved keywords.
 - [ ] XML contains only data and not any processing instructions.
-- [ ] XML does not perform any computation or algorithms.
+- [x] XML does not perform any computation or algorithms.
 - [ ] XML does not have specialized syntax rules.
